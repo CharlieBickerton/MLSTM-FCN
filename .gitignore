@@ -11,3 +11,8 @@ weights/*.h5
 weights/*/*.h5
 .idea/
 utils/*.pyc
+
+venv
+
+__pycache__
+.vscode

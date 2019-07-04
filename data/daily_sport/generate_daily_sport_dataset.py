@@ -7,6 +7,8 @@ daily_sport = r""
 
 ''' Load train set '''
 data_dict = loadmat(daily_sport + "daily_sport.mat")
+print(data_dict)
+# 1/0
 X_train_mat = data_dict['X_train'][0]
 y_train_mat = data_dict['Y_train'][0]
 X_test_mat = data_dict['X_test'][0]
